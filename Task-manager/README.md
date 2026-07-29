@@ -1,15 +1,17 @@
 # Task Manager App
 
+# Prerequisites
+- Node.js 18 
+
 #  Backend Setup
-1. cd Backend
+1. cd Task-manager/Backend
 2. npm install
 3. node server.js (runs on port 4000)
 
 #  Frontend Setup
-1. cd frontend
+1. cd Task-manager/frontend
 2. npm install
-3. Create a `.env` file with `VITE_API_URL=http://localhost:4000/api/tasks`
-4. npm run dev (runs on port 5173)
+3. npm run dev (runs on port 5173)
 
 # API Endpoints
 - GET /api/tasks
@@ -33,6 +35,8 @@ Testing & Debugging : done throughout coding
  Clean up and organize backend validation
 Improve the overall design/styling
 Better error handling in the frontend
+Fix task suddenly disappearing from the carousel when toggling it while filtered
+Stop the carousel from moving while editing a task
 
 
 
